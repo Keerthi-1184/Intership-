@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales and Profit Analysis</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9fb;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+ 
+        h3 {
+            color: #34495e;
+        }
+ 
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+ 
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+ 
+        .left, .right {
+            flex: 1 1 45%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+ 
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+ 
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+ 
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+ 
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+ 
+        /* Chart Image */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+ 
+        /* Statistics Section */
+        .statistics {
+            background-color: white;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+ 
+        .statistics p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+ 
+        @media (max-width: 768px) {
+            .left, .right {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Sales and Profit Over Time</h1>
+ 
+        <div class="content">
+            <!-- Right: Data Table -->
+            <div class="right">
+                <h3>Sales and Profit Table</h3>
+                {{ table | safe }}
+            </div>
+ 
+            <!-- Left: Line Chart -->
+            <div class="left">
+                <h3>Sales and Profit Chart</h3>
+                <img src="data:image/png;base64,{{ plot_url }}" alt="Sales and Profit Plot">
+            </div>
+        </div>
+ 
+        <!-- Data Analysis Section -->
+        <div class="statistics">
+            <h3>📈 Data Analysis Summary</h3>
+            <p><strong>Average Sales:</strong> {{ average_sales }}</p>
+            <p><strong>Total Profit:</strong> {{ total_profit }}</p>
+            <p><strong>Maximum Single-Day Profit:</strong> {{ max_profit }}</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+streamlit==1.39.0
+whisper==1.1.10
+gTTS==2.5.3
+langdetect==1.0.9
+googletrans==4.0.0-rc1
+requests==2.32.3

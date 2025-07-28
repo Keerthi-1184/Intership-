@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+langchain
+networkx
+PyPDF2
+sentence-transformers
+numpy
+requests

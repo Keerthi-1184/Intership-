@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-docx
+PyPDF2
+beautifulsoup4
+requests
+streamlit
+pydantic

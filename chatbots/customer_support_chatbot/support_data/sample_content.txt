@@ -1,0 +1,9 @@
+Support Knowledge:
+- "If you cannot log in, ensure your username and password are correct. Use the 'Forgot Password' link to reset your password."
+- "For billing issues, check your account dashboard for payment history. Contact support at billing@company.com if the issue persists."
+- "If a product is defective, you can return it within 30 days with the original receipt. Visit our returns page for more details."
+
+FAQs:
+- "How do I track my order? Use the tracking number provided in your confirmation email on our website's tracking page."
+- "What is the warranty period? Most products come with a 1-year warranty unless specified otherwise."
+- "How do I contact support? Email us at support@company.com or call us at 1-800-555-1234."

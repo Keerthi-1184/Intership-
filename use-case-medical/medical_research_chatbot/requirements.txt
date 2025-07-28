@@ -1,0 +1,8 @@
+streamlit
+crewai
+duckduckgo_search
+requests
+beautifulsoup4
+langchain
+langchain-core
+langchain-community

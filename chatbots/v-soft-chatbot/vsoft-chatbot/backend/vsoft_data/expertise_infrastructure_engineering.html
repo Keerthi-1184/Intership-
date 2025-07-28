@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="V-Soft Consulting - " name="apple-mobile-web-app-title"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://www.vsoftconsulting.com/xmlrpc.php" rel="pingback"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots">
+
+<meta content="1.1.16" name="be:wp"/>
+<!-- be_ixf, sdk, gho-->
+<meta content="php_sdk_1.5.12" name="be:sdk">
+<meta content="38ms" name="be:timer">
+<meta content="https%3A%2F%2Fwww.vsoftconsulting.com%2Fexpertise%2Finfrastructure%2Fengineering%2F" name="be:orig_url">
+<meta content="https%3A%2F%2Fwww.vsoftconsulting.com%2Fexpertise%2Finfrastructure%2Fengineering%2F" name="be:norm_url">
+<meta content="https%3A%2F%2Fixfd1-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000303154%2F765889406" name="be:capsule_url">
+<meta content="Zy_2025;Zm_05;Zd_06;Zh_11;Zmh_21;p_epoch:1746530506652" name="be:api_dt">
+<meta content="Zy_2025;Zm_05;Zd_06;Zh_11;Zmh_21;p_epoch:1746530506652" name="be:mod_dt"/>
+<meta content="BSPsm8LadmuNb8kvam8IuOtZmBGzg+Bp3z2V4xCk8lUQXOdOKZ2iaOctJf54ReXgY/lpFK2ke1ftEzItbHs8pJ+/uREcQtIfHMbHHngbQ5sgtqGds1WYw/ZAy1/6vFsHk4Jpn0V85mQMHoUmEbQtMw8zppbAecTiN9MDYEfTaHDY/Bao/ch4zKYaPL9jrO10W/HT3aFco/BP5ctq5fIpmYe+oe+RKR2bJQcjHBZr8zOUBfyEtlFuKuaZmx0g4/Uf5fSKGn+teneiG5rpPaI+j/qZ0f0BaJHwUzmthff0zdqIsNDVAZ07Wx0rCyA1a16CGhRfDLnZWHNdtiMknQhVKdrmYx7gFc0IRhvoQ6BQIt+Wi6miIDtDglhLGcW0/EArjKyhSCp9S+PMRmh2m+cq5L2WL65L3CtiHPXKx1hnAVUeqmuIqovfwagJ9/Ql/36/PAJaug9e/mtxMWgKEH9IXAkBWxdPD05mvK5ZHqGN8TU1tGziSo5h8PWtX7tXTVQV9xRrZh6WqIQJXPo7VvBguP1BL06ORs6+2zKYP/SfT1UZmouRaHMXJMFWzvWraXih7CK+0mPQxQ7aqJ64w5Ip75fo/+wVYUhcSGSqPTs5rORbCc7H0QCz3/ljFIZtLCQM/6FdvSYZGOCJUzpHnSyEIeH4lG9kDKysh9aGMoNC7IkrsQWxkb0IqHiVyxw3pndfqtIHShtQTEthoXClXMdtbaHTpU0IEgQ15mX0GeQHb1vT9QtGVPFE+ytfX0AAPk2NizTvNLMKeLy8aHFPwGXnKWM+UYV9f61OZxYFT/RW6THGV3qddY4qiMN9LtgGCm9DBFQhxbwmT272teXYkpzIFVjOVNWsJ1YRpi8FxdbVCft7FEWtlVOb93YPmID/3Nu9/KA5c+n9sAXVEANF/Lus9bD+AnPpnbU0aXCyFugmMyy8YZDjkG/Ph6eBDZtuiQhrTkmkoxPtfwQvjIN/3wBQeb97DsZgF20HQ9Op31z64qRN7zX/uzz5sdi6Nbun6S+kBQcTOY6dSu/eUe5bFil9YcBHWGJsRStGu0rO5vlQIKY1GUmvX5s1wnh8JK6QeZNZM7smvPnAoJZ+te9xGDPTmxRVe79UWQR3nrLtbkcMvOyUACq8lvloxEBCzLgYhecptLF0Y2N7jjudhVnLJpSlOuAYiD1bXHiAcj6K3K7dErHu8q0FMalwgkqWeRORvG2q7GCrQ5ZiziuH/cS2CZzrKsJSXJt+c98xB/BvaKrZorQiI+/C4+fhYxK3IENLoMAySimecE0xKNf76Fv7SKKcjhp3PoTtRXX2a/uWjfYsGUz7C0eYifaaP/j+V4juPemPAmhvIIAyU2fTVz3ej3a9k2DLsJUm8beRntIGxoMVUkaIJB+7DFYF4snTG+u6BMXPTtXY2IipTkMav+wmrnOmsyiwSy/6ZLHdVkQt3UEmsMdQJP0EYOXZo12/mUJ5FLDs+iG4362FUE1mIEurXAKQVl5mVDZhtVFYq/2RKnxYlCrVz24H/S9tlCFjYP6IL9L8EFAd8/WVSEdFgUZIOxfudakP9hf/5Ehfv27XIPcLHxRxhGT+bEDq9gYsMKpWrm1ECYfHE8w7xMDSwjuINDoq5yi/vrYQbX9zF0HhDwNkbJYKy0iavylGIJZKLcuzc0W2pv/tVZ6m0ckND1gfKF5KZWGj4rX0xVkZFgLun9zIuxsh8OCpBrfYoII+bbpy+hD3u8yW1qy2u492jzt7P0TK+Dr4CZkPqXFRpn9jPGyz+5mD4yGuvkf+wcmVLBGb3VOr4E/DRiqXdZ6CcAtdrv6RHU6mZHQmStbWyIZdUSS0ebZCExglsVrVi94KmQDFhOzJSZZeCXtVWpp45w1kF5Rb1jY7yA4V0JVHQoOnvq8CEl/tlc2Z1fksEM5qM+AdtuRMuD2QwwWslDlScc/pkx4lowOINHsYrqYs8WqjUGKJTcyDA0OUkZlI/Mgk6gfRBt7O9BWyeQq22SuEBI3fwGb6oxgAQt+fG/KKm5sXoE3Mh1rqY8HBXmMEiPVGquIgeX3kFqw+g3u624OL0iYShHEqO9GJMKE7AaSCwQXGl6ceKS1zDo5dQ0ooQk9bBt0wYDXEqU7PVEsinlgqlvgL1BASQtwVQp5b8U7HP2if1UV+V8o/wXFigHbcKLfOWkUMBuBtGHsNNEAoderKKx+n5/ne9SDEbUm/fACxg00bq1YTs4foWNlx8771hcULVO/T7hUCckyNC9I03UVpf0SNeMLpPKncMqxvF8m9kPnu4L8AHU/zeDgfsHxB+7yo2VQ6oCr+a4qE8JvUBZ3GDrfAEax5QOs1uUP4wHMLLgqpbUzMmUQmhKGvIWe/5HzsMmFHXxsZ80GDoFGYssw4MlRSbOTVMJRmABuoFxAIIbj9wpA18991MWKZK7jAeNqVYsSbGk1s8WILTX6Hm57QkRnVsEzjP247ebsRkaG9kHARuZv+qudBsYblHn4wxs870D8QB68prfrZj0zLclRYocNDiLnTgYb2xphULycgdfRDklVvf44=" name="be:diag"/>
+<meta content="true" name="be:messages"/>
+
+
+
+<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Engineering Services | ICT Engineering and Consulting</title>
+<meta content="V-Soft provides complete engineering solutions to maximize your ICT systems and infrastructure, from careful design to flawless project execution." name="description"/>
+<link href="https://3.233.174.3/expertise/infrastructure/engineering/" rel="canonical">
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="Engineering Services | ICT Engineering and Consulting" property="og:title"/>
+<meta content="V-Soft provides complete engineering solutions to maximize your ICT systems and infrastructure, from careful design to flawless project execution." property="og:description"/>
+<meta content="https://3.233.174.3/expertise/infrastructure/engineering/" property="og:url"/>
+<meta content="V-Soft Consulting" property="og:site_name"/>
+<meta content="https://www.facebook.com/VSoftConsulting" property="article:publisher"/>
+<meta content="2024-12-20T10:11:57+00:00" property="article:modified_time"/>
+<meta content="https://3.233.174.3/wp-content/uploads/2018/12/INFRASTRUCTURE.jpg" property="og:image"/>
+<meta content="1033" property="og:image:width"/>
+<meta content="587" property="og:image:height"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://www.vsoftconsulting.com/wp-content/uploads/2018/12/INFRASTRUCTURE.jpg" name="twitter:image"/>
+<meta content="@VSoftConsulting" name="twitter:site"/>
+<meta content="Est. reading time" name="twitter:label1"/>
+<meta content="5 minutes" name="twitter:data1"/>
+<!-- / Yoast SEO plugin. -->
+<link href="//www.google.com" rel="dns-prefetch">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<!-- www.vsoftconsulting.com is managing ads with Advanced Ads 2.0.8 – https://wpadvancedads.com/ -->
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/block-library/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-block-library-css" media="all" rel="stylesheet"/>
+
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/components/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-components-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/preferences/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-preferences-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/block-editor/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-block-editor-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-reusable-blocks-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/patterns/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-patterns-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-includes/css/dist/editor/style.min.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="wp-editor-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=5.0.4" id="block-robo-gallery-style-css-css" media="all" rel="stylesheet"/>
+
+<link href="https://www.vsoftconsulting.com/wp-content/themes/hatfield-raindrop/css/child-theme.min.css?ver=1.1.1" id="child-understrap-styles-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-content/themes/understrap/style.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="parent-style-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-content/themes/hatfield-raindrop/style.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="child-style-css" media="all" rel="stylesheet"/>
+<link href="https://www.vsoftconsulting.com/wp-content/themes/hatfield-raindrop/steveStrapHeader.css?ver=ae6dc05136c3154433a1e2c4829b645d" id="steveStrapHeaderCss-css" media="all" rel="stylesheet"/>
+<!--n2css--><!--n2js-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<meta content="JoVv6KV1c09FZzqVEff_rh2b3VPUIjIG_FR09wj2eGs" name="google-site-verification"/>
+<!-- Start of HubSpot Embed Code -->
+
+<!-- End of HubSpot Embed Code -->
+<meta content="CzO_1H-XY-zb8HqnCMn_RCCwDE7n9gLuLZtasXPe9mw" name="google-site-verification"/>
+<!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager --><!-- This site is embedding videos using the Videojs HTML5 Player plugin v1.1.13 - http://wphowto.net/videojs-html5-player-for-wordpress-757 --><meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="V-Soft Consulting - " name="apple-mobile-web-app-title"/>
+<link href="https://www.vsoftconsulting.com/wp-content/uploads/2018/12/cropped-Favicon-1-32x32.png" rel="icon" sizes="32x32"/>
+<link href="https://www.vsoftconsulting.com/wp-content/uploads/2018/12/cropped-Favicon-1-192x192.png" rel="icon" sizes="192x192"/>
+<link href="https://www.vsoftconsulting.com/wp-content/uploads/2018/12/cropped-Favicon-1-180x180.png" rel="apple-touch-icon"/>
+<meta content="https://www.vsoftconsulting.com/wp-content/uploads/2018/12/cropped-Favicon-1-270x270.png" name="msapplication-TileImage">
+
+<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
+
+<!-- Fonts Plugin CSS -->
+
+<meta content="JoVv6KV1c09FZzqVEff_rh2b3VPUIjIG_FR09wj2eGs" name="google-site-verification">
+<meta content="CzO_1H-XY-zb8HqnCMn_RCCwDE7n9gLuLZtasXPe9mw" name="google-site-verification">
+<!-- Start of HubSpot Embed Code -->
+
+<!-- End of HubSpot Embed Code -->
+
+
+<!-- Clarity tracking code -->
+
+</meta></meta></meta></link></link></meta></meta></meta></meta></meta></meta></meta></head>
+<body class="wp-singular page-template page-template-page-templates page-template-empty page-template-page-templatesempty-php page page-id-39211 page-child parent-pageid-39229 wp-custom-logo wp-embed-responsive wp-theme-understrap wp-child-theme-hatfield-raindrop group-blog understrap-has-sidebar aa-prefix-vsoft-">
+<div class="hfeed site" id="page">
+<!-- ******************* The Navbar Area ******************* -->
+<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+<a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+<div id="navWrapper">
+<!-- .site-navigation -->
+<div id="mobileNavWrapper">
+<!-- The WordPress Mobile Menu goes here -->
+<div class="menu-mobile-container"><ul class="navbar-nav ml-auto" id="mobile-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-307 nav-item" id="menu-item-307" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" href="#" id="menu-item-dropdown-307" title="Expertise">Expertise</a>
+<ul aria-labelledby="menu-item-dropdown-307" class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-44 nav-item" id="menu-item-44" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/" title="Expertise">Expertise</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40216 nav-item" id="menu-item-40216" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/staffing/" title="Staffing">Staffing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40519 nav-item" id="menu-item-40519" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/servicenow/" title="ServiceNow">ServiceNow</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40214 nav-item" id="menu-item-40214" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/salesforce/" title="Salesforce">Salesforce</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41328 nav-item" id="menu-item-41328" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/software-app-development/" title="App Development">App Development</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40201 nav-item" id="menu-item-40201" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/artificial-intelligence/" title="Artificial Intelligence">Artificial Intelligence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40515 nav-item" id="menu-item-40515" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/amazon-web-services/" title="Amazon Web Services">Amazon Web Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42477 nav-item" id="menu-item-42477" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/data-engineering-services/" title="Data Engineering">Data Engineering</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40219 nav-item" id="menu-item-40219" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="/expertise/infrastructure" title="Infrastructure">Infrastructure</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40518 nav-item" id="menu-item-40518" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/mobile-app-development/" title="Mobile">Mobile</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40213 nav-item" id="menu-item-40213" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/mulesoft/" title="Mulesoft">Mulesoft</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37860 nav-item" id="menu-item-37860" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/expertise/robotic-process-automation/" title="RPA">RPA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-484 nav-item" id="menu-item-484" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" href="#" id="menu-item-dropdown-484" title="Industries">Industries</a>
+<ul aria-labelledby="menu-item-dropdown-484" class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46 nav-item" id="menu-item-46" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/" title="Industries">Industries</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483 nav-item" id="menu-item-483" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/automotive/" title="Automotive">Automotive</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482 nav-item" id="menu-item-482" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/financial-services/" title="BFSI">BFSI</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40217 nav-item" id="menu-item-40217" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/government/" title="Government">Government</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652 nav-item" id="menu-item-652" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/healthcare/" title="Healthcare">Healthcare</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667 nav-item" id="menu-item-667" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/insurance/" title="Insurance">Insurance</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-709 nav-item" id="menu-item-709" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/manufacturing/" title="Manufacturing">Manufacturing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719 nav-item" id="menu-item-719" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/industries/media/" title="Media">Media</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28323 nav-item" id="menu-item-28323" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="nav-link" href="https://www.vsoftconsulting.com/knowledgebase/" title="Knowledgebase">Knowledgebase</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-42 nav-item" id="menu-item-42" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" href="#" id="menu-item-dropdown-42" title="Careers">Careers</a>
+<ul aria-labelledby="menu-item-dropdown-42" class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-739 nav-item" id="menu-item-739" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/careers/" title="Careers">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41331 nav-item" id="menu-item-41331" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/career-portal/" title="Search Jobs">Search Jobs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-738 nav-item" id="menu-item-738" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/submit-a-resume/" title="Submit A Resume">Submit A Resume</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-305 nav-item" id="menu-item-305" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" href="#" id="menu-item-dropdown-305" title="About">About</a>
+<ul aria-labelledby="menu-item-dropdown-305" class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104 nav-item" id="menu-item-104" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/about/" title="About">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2055 nav-item" id="menu-item-2055" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://blog.vsoftconsulting.com/blog/topic/main" rel="noopener noreferrer" target="_blank" title="Blog">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43842 nav-item" id="menu-item-43842" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/itsac-contract/" title="Contract">Contract</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48 nav-item" id="menu-item-48" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/news/" title="News">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40218 nav-item" id="menu-item-40218" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/diversity/" title="Diversity">Diversity</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29812 nav-item" id="menu-item-29812" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/partnerships/" title="Partnerships">Partnerships</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33671 nav-item" id="menu-item-33671" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/v-soft-tech-talks/" title="Tech Talks (Podcast)">Tech Talks (Podcast)</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-525 nav-item" id="menu-item-525" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="dropdown-item" href="https://www.vsoftconsulting.com/presidents-corner/" title="Presidents Corner">Presidents Corner</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38054 nav-item" id="menu-item-38054" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="nav-link" href="https://www.vsoftconsulting.com/contact/" title="Contact">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47 nav-item" id="menu-item-47" itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"><a class="nav-link" href="https://www.vsoftconsulting.com/locations/" title="Locations">Locations</a></li>
+</ul></div> </div>
+</div>
+</div><!-- .wrapper-navbar end -->
+<div class="main-content">
+<div class="jumbotron orangeBG infra">
+<div class="container padBottom mb-5">
+<div class="row">
+<div class="col-12">
+<p><img alt="Infrastructure Icon" decoding="async" id="infraIcon" src="/wp-content/uploads/2018/10/icon.png"/></p>
+<h1 class="white text-center">ENGINEERING</h1>
+<p class="white text-center">At V-Soft Infrastructure, we are committed to excellence in engineering services. Whether you’re embarking on a new project or need to optimize your existing infrastructure, our team is ready to partner with you to achieve your goals efficiently and effectively. Contact us today to get started on your next engineering endeavor.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jumbotron whiteBG">
+<div class="container rel">
+<div class="row pullUp">
+<div class="col-md-6 col-12">
+<div class="darkOrangeBorder">
+<h2 class="subTitle">Engineering Excellence Unleashed</h2>
+<p class="textBlock">Elevate your infrastructure through expert engineering services that guarantee unparalleled efficiency, compliance, and long-term reliability.</p>
+</div>
+</div>
+<div class="col-md-6 col-12">
+<div class="darkOrangeBorder">
+<h2 class="subTitle">Why V-Soft?</h2>
+<p class="textBlock">From meticulous planning to seamless project execution, V-Soft Infrastructure offers comprehensive engineering solutions to optimize your ICT systems and infrastructure, ensuring efficiency, compliance, and long-term reliability.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jumbotron whiteBG pt-0">
+<div class="container rel">
+<div class="row whiteBG">
+<div class="col-12"><img alt="Engineering" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/Header.png"/></div>
+</div>
+<p class="textBlock mt-4">Our Engineering Services encompass a comprehensive array of solutions tailored to your unique requirements:</p>
+</div>
+</div>
+<div class="jumbotron orangeBG" style="background-image: none;">
+<div class="container">
+<h2 class="subTitle white text-center">Planning and Consulting</h2>
+<p class="textBlock white text-center px-5 mb-0">Our team of Infrastructure specialists excels in planning and consulting services. Whether you’re developing construction specifications or seeking remediation solutions, we work closely with you to determine the best-fit spectrum of skills and services. Our process involves interaction, inspection, interpretation, analysis, prioritization, and recommendation to ensure your project is set on the right path from the beginning.</p>
+</div>
+</div>
+<div class="jumbotron whiteBG">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle"><img alt="Assessments and Audits" class="w-100 my-3" decoding="async" src="/wp-content/uploads/2023/09/Left.png"/></div>
+<div class="col-12 col-md-6 align-middle">
+<div>
+<h2 class="subTitle">ASSESSMENTS AND AUDITS</h2>
+<p class="textBlock">Let our Infrastructure experts assess your operations to define the current state of your infrastructure. We compare it against established industry and company-specific standards, providing you with a clear understanding of where you stand. Additionally, we offer preliminary budgets to bring your infrastructure into compliance, ensuring you are well-prepared for any future challenges.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jumbotron orangeBG" style="background-image: none;">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle">
+<div class="my-3">
+<h2 class="subTitle white">BASIS OF DESIGN</h2>
+<p class="textBlock white">During this crucial phase, we align with your corporate standards, preferred products, and industry-proven practices, all while considering your project requirements. Our goal is to formulate the best value Basis of Design foundation for your project, setting the stage for a successful implementation.</p>
+</div>
+</div>
+<div class="col-12 col-md-6 align-middle"><img alt="Basis of Design" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/right.png"/></div>
+</div>
+</div>
+</div>
+<div class="jumbotron whiteBG">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle"><img alt="Design Development" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/left2.png"/></div>
+<div class="col-12 col-md-6 align-middle">
+<div>
+<h2 class="subTitle">DESIGN DEVELOPMENT</h2>
+<p class="textBlock">V-Soft Infrastructure produces deliverables such as design drawings and specifications essential for constructing your ICT systems project. Our design documents are clearly documented, fostering collaborative reviews and refinement until a final design is agreed upon. We ensure that your vision becomes a reality.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jumbotron orangeBG" style="background-image: none;">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle">
+<div class="my-3">
+<h2 class="subTitle white">EOL/EOS NETWORK EQUIPMENT RACK AND STACK</h2>
+<p class="textBlock white">Managing End of Life (EOL) or End of Service (EOS) equipment is critical for maintaining a high-functioning IT environment. Our services include options for hardware refresh or maintenance, ensuring that your infrastructure remains robust and up to date.</p>
+</div>
+</div>
+<div class="col-12 col-md-6 align-middle"><img alt="EOL/EOS Network Equipment Rack and Stack" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/right3.png"/></div>
+</div>
+</div>
+</div>
+<div class="jumbotron whiteBG">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle"><img alt="EOL/EOS Network Equipment Rack and Stack" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/left4.png"/></div>
+<div class="col-12 col-md-6 align-middle">
+<div>
+<h2 class="subTitle">PROJECT IMPLEMENTATION</h2>
+<p class="textBlock">Our commitment to your project doesn’t stop at the planning and design phase. We understand that ensuring your project runs on schedule and within budget is paramount. Our team makes periodic visits to the project site to ensure design compliance and quality assurance during construction and implementation. We provide observation and status reports and offer remote support throughout the project’s duration. Our on-site project management ensures design compliance, adherence to best practices, installation standards, and manufacturer guidelines.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jumbotron orangeBG" style="background-image: none;">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 align-middle">
+<div class="my-3">
+<h2 class="subTitle white">PROJECT CLOSE OUT AND DOCUMENTATION</h2>
+<p class="textBlock white">To close out a successful project, we make one final visit to properly conclude all aspects of the project. We provide comprehensive documentation, including project data, warranties, records of communications, and administrative forms. Our meticulous approach ensures that every detail is covered, leaving you with a seamless transition to your newly improved infrastructure.</p>
+</div>
+</div>
+<div class="col-12 col-md-6 align-middle"><img alt="Project Close Out and Documentation" class="w-100" decoding="async" src="/wp-content/uploads/2023/09/right5.png"/></div>
+</div>
+</div>
+</div>
+<div class="container-fluid noPadding hidden">
+<div class="row noMargin">
+<div class="col-md-6 col-12 noPadding">
+<p><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-aff0620f-a544-4039-a0bb-ecd18960fe38"><span class="hs-cta-node hs-cta-aff0620f-a544-4039-a0bb-ecd18960fe38" id="hs-cta-aff0620f-a544-4039-a0bb-ecd18960fe38"><!-- [if lte IE 8]>
+
+
+<div id="hs-cta-ie-element"></div>
+
+
+<![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/1629777/aff0620f-a544-4039-a0bb-ecd18960fe38" rel="noopener noreferrer" target="_blank"><img alt="Cyber Security Guide For Business" class="hs-cta-img" decoding="async" id="hs-cta-img-aff0620f-a544-4039-a0bb-ecd18960fe38" src="https://no-cache.hubspot.com/cta/default/1629777/aff0620f-a544-4039-a0bb-ecd18960fe38.png" style="border-width: 0px;"/></a></span><br/>
+<br/>
+<br/>
+</span><!-- end HubSpot Call-to-Action Code --></p>
+</div>
+<div class="col-md-6 col-12 noPadding">
+<p><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-6dd98ae5-f761-4621-8eb2-a5eabf631a04"><span class="hs-cta-node hs-cta-6dd98ae5-f761-4621-8eb2-a5eabf631a04" id="hs-cta-6dd98ae5-f761-4621-8eb2-a5eabf631a04"><!-- [if lte IE 8]>
+
+
+<div id="hs-cta-ie-element"></div>
+
+
+<![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/1629777/6dd98ae5-f761-4621-8eb2-a5eabf631a04" rel="noopener noreferrer" target="_blank"><img alt="Cyber Security Readiness Assessment" class="hs-cta-img" decoding="async" id="hs-cta-img-6dd98ae5-f761-4621-8eb2-a5eabf631a04" src="https://no-cache.hubspot.com/cta/default/1629777/6dd98ae5-f761-4621-8eb2-a5eabf631a04.png" style="border-width: 0px;"/></a></span><br/>
+<br/>
+<br/>
+</span><!-- end HubSpot Call-to-Action Code --></p>
+</div>
+</div>
+</div>
+<div class="container-fluid noPadding">
+<div class="jumbotron bluecolor">
+<h5 class="text-center form-title">LET’S TALK ABOUT YOUR PROJECT</h5>
+<p><br/>
+</p>
+</div>
+</div>
+</div>
+<div id="mega-menu">
+<div class="container-fluid noPadding">
+<div class="row noMargin">
+<div class="col-4 megaBlueBorder noPadding">
+<div class="locationDiv megaActive" id="louisville">LOUISVILLE, KENTUCKY</div>
+<div class="locationDiv" id="atlanta">ATLANTA, GEORGIA</div>
+<div class="locationDiv" id="chicago">CHICAGO, ILLINOIS</div>
+<div class="locationDiv" id="cincinnati">CINCINNATI, OHIO</div>
+<div class="locationDiv" id="denver">DENVER, COLORADO</div>
+<div class="locationDiv" id="madison">MADISON, WISCONSIN</div>
+<div class="locationDiv" id="raritan">RARITAN, NEW JERSEY</div>
+<div class="locationDiv" id="toronto">TORONTO, ONTARIO</div>
+<div class="locationDiv" id="bangalore">NOIDA, INDIA</div>
+<div class="locationDiv" id="hyderabad">HYDERABAD, INDIA</div>
+</div>
+<div class="col-8">
+<div class="row" id="mega-louisville">
+<div class="col-6">
+<p class="strongBlue textBlock">
+                            V-Soft's Corporate Headquarters
+                        </p>
+<p class="textBlock">
+                            2550 Eastpoint Parkway, Suite 300<br/> Louisville, KY 40223
+                        </p>
+<p class="textBlock">
+                            502.425.8425<br/> TOLL FREE: 844.425.8425<br/> FAX: 502.412.5869
+                        </p>
+<p class="textBlock">
+<a href="/louisville/">
+<button class="btn mega-button">Visit Our Headquarters</button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.7893607324663!2d-85.50980232486037!3d38.284375382643304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8869993ad8c66447%3A0xb8719e5d2e69212!2s2550%20Eastpoint%20Pkwy%2C%20Louisville%2C%20KY%2040223%2C%20USA!5e0!3m2!1sen!2sin!4v1688625031532!5m2!1sen!2sin" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-denver">
+<div class="col-6">
+<p class="strongBlue textBlock">
+                            Denver, Colorado
+                        </p>
+<p class="textBlock">
+                            6400 South Fiddlers Green Circle Suite #1150<br/> Greenwood Village, CO 80111
+                        </p>
+<p class="textBlock">
+                            TOLL FREE: 844.425.8425
+                        </p>
+<p class="textBlock">
+<a href="/denver/">
+<button class="btn mega-button">Visit Denver Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12296.902715031989!2d-104.89838063883924!3d39.59959838212839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c8662d359d7a9%3A0xa2239ae926b4b96!2sV-Soft+Consulting!5e0!3m2!1sen!2sus!4v1539023065837" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-chicago">
+<div class="col-6">
+<p class="strongBlue textBlock">
+                            Chicago, Illinois
+                        </p>
+<p class="textBlock">
+							208 N. Green Street, #302, Chicago, IL 60607
+                        </p>
+<p class="textBlock">
+                            TOLL FREE: 844.425.8425
+                        </p>
+<p class="textBlock">
+<a href="/chicago/">
+<button class="btn mega-button">Visit Chicago Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.320217907317!2d-87.65098778515942!3d41.88596997922168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cd008cac34b%3A0xb2fa3722fb309ac4!2s208%20N%20Green%20St%20%23302%2C%20Chicago%2C%20IL%2060607%2C%20USA!5e0!3m2!1sen!2sin!4v1677149544742!5m2!1sen!2sin" style="border:0;" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-madison">
+<div class="col-6">
+<p class="textBlock strongBlue">
+                            Madison, Wisconsin
+                        </p>
+<p class="textBlock">
+                            2810 Crossroads Drive, Ste. 4000<br/> Madison, WI 53718
+                        </p>
+<p class="textBlock">
+                            TOLL FREE: 844.425.8425
+                        </p>
+<p class="textBlock">
+<a href="/madison/">
+<button class="btn mega-button">Visit Madison Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.3200322326074!2d-87.65098778505575!3d41.88597397290123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cd008cac34b%3A0x7691c90f0feb735a!2s208%20N%20Green%20St%2C%20Chicago%2C%20IL%2060607%2C%20USA!5e0!3m2!1sen!2sin!4v1677147350509!5m2!1sen!2sin" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-atlanta">
+<div class="col-6">
+<p class="textBlock strongBlue">
+                            Atlanta, Georgia
+                        </p>
+<p class="textBlock">
+                            1255 Peachtree Parkway Suite #4201<br/> Cumming, GA 30041
+                        </p>
+<p class="textBlock">
+                            TOLL FREE: 844.425.8425
+                        </p>
+<p class="textBlock">
+<a href="/atlanta/">
+<button class="btn mega-button">Visit Atlanta Location</button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13210.369763359555!2d-84.17995003947796!3d34.13118217764941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f59b93d0163ee5%3A0xcd7b11f3d1ffd199!2sV-Soft+Consulting!5e0!3m2!1sen!2sus!4v1539023218622" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-cincinnati" style="display: none ">
+<div class="col-6">
+<p class="textBlock strongBlue">
+                            Cincinnati, Ohio
+                        </p>
+<p class="textBlock">
+                            Spectrum Office Tower 11260<br/>Chester Road Suite 350<br/> Cincinnati, OH 45246
+                        </p>
+<p class="textBlock">                          
+                            Phone: 513.771.0050
+                        </p>
+<p class="textBlock">
+<a href="/cincinnati/">
+<button class="btn mega-button">Visit Cincinnati Location</button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.4761551220927!2d-84.44430448431756!3d39.27745083205639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88404e03c19b72d3%3A0x558d959618fd151e!2s11260+Chester+Rd%2C+Cincinnati%2C+OH+45246%2C+USA!5e0!3m2!1sen!2sin!4v1546847045565" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-raritan" style="display: none ">
+<div class="col-6">
+<p class="textBlock strongBlue">
+                            Raritan, New Jersey
+                        </p>
+<p class="textBlock">
+                            216 Route 206<br/>Suite 22 Hillsborough<br/>Raritan, NJ 08844
+                        </p>
+<p class="textBlock">Phone: 513.771.0050</p>
+<p class="textBlock">
+<a href="/raritan/">
+<button class="btn mega-button">Visit Raritan Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.475082935841!2d-74.62998668460061!3d40.531091979352055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zNDDCsDMxJzUxLjkiTiA3NMKwMzcnNDAuMSJX!5e0!3m2!1sen!2sin!4v1562760424777!5m2!1sen!2sin" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-toronto">
+<div class="col-6">
+<p class="textBlock strongBlue">
+                            Toronto, Canada
+                        </p>
+<p class="textBlock">
+                             600 Matheson Blvd West, Unit 5, Mississauga, ON L5R 4C1.
+                        </p>
+<p class="textBlock">
+                            Phone: 416.663.0900
+                        </p>
+<p class="textBlock">
+<a href="/toronto/">
+<button class="btn mega-button">Visit Toronto Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2888.7841452982348!2d-79.6899203!3d43.6110358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b408cdabc1f3b%3A0x9d0d7d7836376451!2s600%20Matheson%20Blvd%20W%20Unit%205%2C%20Mississauga%2C%20ON%20L5R%204C1%2C%20Canada!5e0!3m2!1sen!2sin!4v1700564365725!5m2!1sen!2sin" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-hyderabad">
+<div class="col-6">
+<p class="strongBlue textBlock">
+                            Hyderabad, India
+                        </p>
+<p class="textBlock">Jain Sadguru Capital Park<br/>7th Floor, Image Gardens Road<br/>Madhapur, Hyderabad, Telangana 500081</p>
+<p class="textBlock">
+                            PHONE: 040-48482789
+                        </p>
+<p class="textBlock">
+<a href="/india/">
+<button class="btn mega-button">Visit Hyderabad Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.807954463662!2d78.38622575908519!3d17.438067697828224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5f5ff63cef018132!2sV-Soft+Consulting!5e0!3m2!1sen!2sus!4v1539023304616" style="border:0" width="600"></iframe>
+</div>
+</div>
+</div>
+<div class="row" id="mega-bangalore">
+<div class="col-6">
+<p class="strongBlue textBlock">
+                            Noida, India
+                        </p>
+<p class="textBlock">
+                            H-110 - Sector 63 , NOIDA , Gautham Budh Nagar , UP – 201301 India
+                        </p>
+<p class="textBlock">
+<a href="/india/">
+<button class="btn mega-button">Visit Noida Location </button>
+</a>
+</p>
+</div>
+<div class="col-6 noPadding">
+<div class="google-maps">
+<iframe allowfullscreen="" height="450" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58645.32421704282!2d77.3190457340015!3d28.61208181767492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed0bc014b366e384!2sV-Soft%20Consulting!5e0!3m2!1sen!2sin!4v1646899045287!5m2!1sen!2sin" style="border:0;" width="600"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- #colophon -->
+</div>
+<!-- #page we need this extra closing tag here -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- be_ixf, sdk, is -->
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Feedback</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>All Submitted Feedback</h1>
+    
+    <div class="feedback-list">
+        {% if feedbacks %}
+            <ul>
+            {% for fb in feedbacks %}
+                <li>
+                    <strong>{{ fb.name }}</strong> ({{ fb.email }})
+                    <p>{{ fb.message }}</p>
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p class="no-feedback">No feedback submitted yet.</p>
+        {% endif %}
+    </div>
+
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>
+
+
